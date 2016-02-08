@@ -123,18 +123,15 @@ p {
     font-family: "basic title font";
 
 }
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 $alt: #E26A6A;
 
 body {
-    background: url(https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Montserrat';
+    font-family: 'basic title font';
     overflow: auto;
 }
 
@@ -171,7 +168,7 @@ a:active {
     top: 50%;
     left: 65%;
     transform: translate(-50%, -50%);
-    box-shadow: 3px -2px 6px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 3px -2px 6px rgba(0, 0, 0, 0.4);
 
 & .slider-content.signup {
       display: none;
@@ -192,18 +189,18 @@ a:active {
 }
 
 .heading {
-    font-family: 'Montserrat';
+    font-family: 'basic title font';
     font-size: 1.2em;
 }
 
 .heading.alt {
     margin-bottom: 10%;
     text-transform: uppercase;
-    color: $alt;
+    color: alt;
 }
 
 .info-text {
-    font-family: 'Roboto';
+    font-family: 'basic title font';
     font-size: 0.7em;
     font-weight: 300;
     letter-spacing: 1px;
@@ -221,7 +218,7 @@ a:active {
     color: #eee;
     border: 2px solid #ccc;
     border-radius: 3px;
-    font-family: 'Montserrat';
+    font-family: 'basic title font';
     font-size: 0.7em;
     text-transform: uppercase;
     cursor: pointer;
@@ -229,7 +226,7 @@ a:active {
 
 .button.alt {
     margin-bottom: 15px;
-    background-color: $alt;
+    background-color: alt;
     border: 0;
 }
 
@@ -248,9 +245,8 @@ form input {
     padding: 5px;
     border: 0;
     border-bottom: 2px solid #ddd;
-    font-family: 'Montserrat';
+    font-family: 'basic title font';
 
 &:focus {
      outline: 0;
  }
-}
