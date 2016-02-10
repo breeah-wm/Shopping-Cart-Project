@@ -56,7 +56,6 @@ a:hover:not(.active) {
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 .about {
     float: left;
@@ -116,6 +115,5 @@ p {
     text-align: center;
     font-family: "princ";
 }
-
 
 
