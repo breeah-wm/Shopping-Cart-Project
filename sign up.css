@@ -8,7 +8,10 @@ h1{
     font-family: 'basic title font';
     src: url('basictitlefont.ttf');
 }
-
+@font-face {
+    font-family: 'princ';
+    src:url('PRINC___.TTF')
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -49,52 +52,10 @@ a:hover:not(.active) {
     overflow: hidden;
 
 }
-.navbar-collapse .container-fluid {
-    padding: 2rem 2.5rem;
-    border-bottom: 1px solid #f0baff
-;
-}
-.navbar-collapse h4 {
-    color: #f0baff
-;
-}
-.navbar-collapse .text-muted {
-    color: #f0baff
-;
-}
-.about {
-    float: left;
-    max-width: 30rem;
-    margin-right: 3rem;
-}
-.jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-    margin-bottom: 0;
-    background-color: #fff;
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
-}
-.jumbotron-heading {
-    font-weight: 300;
-}
-.jumbotron .container {
-    max-width: 40rem;
-    background: rgba(255,255,255,0.2);
-    padding: 2rem;
-    color: white;
-}
-.jumbotron p {
-    color: white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
 .album {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7
-;
+    background-color: #f7f7f7;
 }
 .card {
     float: left;

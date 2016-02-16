@@ -49,19 +49,6 @@ a:hover:not(.active) {
     overflow: hidden;
 
 }
-.navbar-collapse .container-fluid {
-    padding: 2rem 2.5rem;
-    border-bottom: 1px solid #f0baff
-;
-}
-.navbar-collapse h4 {
-    color: #f0baff
-;
-}
-.navbar-collapse .text-muted {
-    color: #f0baff
-;
-}
 .about {
     float: left;
     max-width: 30rem;
@@ -94,8 +81,7 @@ a:hover:not(.active) {
 .album {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7
-;
+    background-color: #f7f7f7;
 }
 .card {
     float: left;
@@ -161,11 +147,12 @@ figure.snip1195 figcaption {
     transform: translateY(-50%);
     padding: 10px 35px;
 }
-figure.snip1195 h4,
+figure.snip1195 h3,
 figure.snip1195 p,
 figure.snip1195 .price {
     margin: 0 0 8px;
 }
+
 figure.snip1195 h3 {
     position: absolute;
     width: 50%;

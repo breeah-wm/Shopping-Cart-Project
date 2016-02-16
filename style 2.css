@@ -1,12 +1,15 @@
 h1{
     font-family: "basic title font";
     color: darkred;
-
 }
 
 @font-face {
     font-family: 'basic title font';
     src: url('basictitlefont.ttf');
+}
+@font-face {
+    font-family: 'princ';
+    src:url('PRINC___.TTF;')
 }
 
 ul {
@@ -72,10 +75,11 @@ a:hover:not(.active) {
     padding-bottom: 6rem;
     margin-bottom: 0;
     background-color: #fff;
-    background-image: url('');
+    background-image: url('https://cauldronsandcupcakes.files.wordpress.com/2012/03/journal.jpg');
     background-repeat: no-repeat;
     background-position: bottom center;
     background-size: cover;
+    font-family: "princ";
 }
 .jumbotron-heading {
     font-weight: 300;
@@ -93,8 +97,7 @@ a:hover:not(.active) {
 .album {
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7
-;
+    background-color: #f7f7f7;
 }
 .card {
     float: left;
